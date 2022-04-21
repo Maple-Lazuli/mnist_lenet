@@ -6,13 +6,13 @@ COPY *.py /opt/app/
 
 COPY requirements.txt /opt/app
 
+COPY raw_data /opt/app/raw_data
+
 RUN mkdir /opt/app/model
 
 RUN mkdir /opt/app/reports
 
 RUN mkdir /opt/app/reports/images
-
-RUN mkdir /opt/app/raw_data
 
 RUN mkdir /opt/app/tf_records
 

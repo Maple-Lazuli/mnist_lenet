@@ -380,7 +380,7 @@ if __name__ == "__main__":
                         help='The learning rate to use during training')
 
     parser.add_argument('--train_set_location', type=str,
-                        default="./tf_records/train/mnist-train.tfrecords",
+                        default="./tf_records/train/mnist_train.tfrecords",
                         help='The location of the training set')
 
     parser.add_argument('--validation_set_location', type=str,
